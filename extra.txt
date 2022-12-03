@@ -1,0 +1,12 @@
+dropdown 52
+ <label for="drop-2" class="toggle toogle-2">Dropdown <span class="fa fa-angle-down"
+                        aria-hidden="true"></span>
+                  </label>
+                  <a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                  <input type="checkbox" id="drop-2">
+                  <ul >
+                     <li><a href="gallery.html" class="drop-text">Gallery</a></li>
+                     <li><a href="blog.html" class="drop-text">Blog</a></li>
+                  </ul>
+               </li>
+               <li>
