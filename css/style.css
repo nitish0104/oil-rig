@@ -1884,3 +1884,11 @@ footer p a:hover {
 .listhead{
   color: white;
 }
+
+@media only screen and (max-width: 428px){
+  .custom-card{
+    width: 400px;
+   margin: 10px;
+    
+}
+}
