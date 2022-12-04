@@ -187,10 +187,11 @@ nav {
   float: left;
   display: initial;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 25px;
   letter-spacing: 1px;
   color: rgb(255, 255, 255);
   padding: 0;
+  margin-top: 10px;
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -541,7 +542,7 @@ background-color: #212121;
 }
 
 .style-banner h5 {
-  font-size: 50px;
+  font-size: 40px;
   color: #ffb100;
 }
 
@@ -1093,7 +1094,7 @@ footer p a:hover {
     padding: 1.5em 4em;
   }
   #logo a {
-    font-size: 33px;
+    font-size: 24px;
   }
   nav ul li a {
     padding: 5px 38px;
@@ -1208,7 +1209,7 @@ footer p a:hover {
 
 @media (max-width: 1050px) {
   #logo a {
-    font-size: 31px;
+    font-size: 20px;
   }
   .view-buttn a {
     padding: 7px 17px;
@@ -1359,7 +1360,7 @@ footer p a:hover {
     font-size: 2em;
   }
   #logo a {
-    font-size: 29px;
+    font-size: 15px;
   }
   .inner_page-banner {
     min-height: 219px;
@@ -1654,7 +1655,7 @@ footer p a:hover {
     font-size: 1.6em;
   }
   #logo a {
-    font-size: 27px;
+    font-size: 14px;
   }
   .stats {
     min-height: 230px;
@@ -1716,7 +1717,7 @@ footer p a:hover {
     font-size: 1.4em;
   }
   .style-banner h5 {
-    font-size: 29px;
+    font-size: 20px;
   }
   .news-date {
     top: 139px;
@@ -1873,4 +1874,13 @@ footer p a:hover {
 .myproduct_img:hover
 {
   box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.5);
+}
+.listchild li a{
+  color:#ffb100 ;
+}
+.listchild li a:hover{
+  color:#0044ffbf ;
+}
+.listhead{
+  color: white;
 }
