@@ -1843,17 +1843,17 @@ footer p a:hover {
   display: flex;
   width: 250px;
   flex-direction: column;
-  box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.2);
   align-items: center;
   border-radius: 8px;
   transition: 0.3s;
   cursor: pointer;
 }
-.custom-card h5{
+.custom-card h5 {
   font-size: 18px !important;
 }
-.custom-card:hover{
-  box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.5);
+.custom-card:hover {
+  box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.5);
 }
 
 .custom-card-head {
@@ -1861,34 +1861,76 @@ footer p a:hover {
   justify-content: center;
   align-items: center;
 }
-.fotter_list{
+.fotter_list {
   margin-left: 60px;
 }
 
-.myproduct_img
-{
+.myproduct_img {
   margin-bottom: 40px;
-  
-  box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.2);
-}
-.myproduct_img:hover
-{
-  box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.5);
-}
-.listchild li a{
-  color:#ffb100 ;
-}
-.listchild li a:hover{
-  color:#0044ffbf ;
-}
-.listhead{
-  color: white;
+
 }
 
-@media only screen and (max-width: 428px){
-  .custom-card{
-    width: 400px;
-   margin: 10px;
-    
+.listchild li a {
+  color: #ffb100;
 }
+.listchild li a:hover {
+  color: #0044ffbf;
+}
+.listhead {
+  color: white;
+}
+.product-parent {
+  display: flex;
+}
+.myproduct_img {
+  padding: 30px;
+  width: 37vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.myproduct_img img {
+  width:40 vh;
+}
+
+.about-para-txt {
+  width: 63vw;
+  display: flex;
+  padding-left: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-right: 60px;
+}
+
+@media only screen and (max-width: 428px) {
+  .about-para-txt {
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 30px;
+  }
+  .custom-card {
+    width: 360px;
+    margin: 10px auto;
+  }
+  .myproduct_img img {
+    width: auto;
+  }
+  .myproduct_img {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 40vh;
+    display: flex;
+  }
+  .product-parent {
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  
 }
