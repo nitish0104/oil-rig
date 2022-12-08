@@ -170,6 +170,7 @@ ul li {
 [id^="drop"] {
   display: none;
 }
+
 .toggle-2,
 .toggle,
 [id^="droptwo-2"] {
@@ -248,6 +249,7 @@ nav ul li ul li:hover {
   color: #000;
   border: none;
 }
+
 .drop-text {
   text-align: left;
 }
@@ -281,7 +283,7 @@ nav ul ul {
 
 /* Display Dropdowns on Hover */
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
   display: inherit;
 }
 
@@ -337,7 +339,7 @@ nav ul ul ul li {
 
 /* Change ' +' in order to change the Dropdown symbol */
 
-li > a:only-child:after {
+li>a:only-child:after {
   content: "";
 }
 
@@ -363,15 +365,18 @@ a.reqe-button {
     text-align: center;
     float: none;
   }
+
   nav {
     margin: 0;
   }
+
   /* Hide the navigation menu by default */
   /* Also hide the  */
-  .toggle + a,
+  .toggle+a,
   .menu {
     display: none;
   }
+
   /* Stylinf the toggle lable */
   .toggle {
     display: block;
@@ -385,6 +390,7 @@ a.reqe-button {
     border-radius: 50px;
     cursor: pointer;
   }
+
   .menu .toggle {
     float: none;
     text-align: center;
@@ -400,6 +406,7 @@ a.reqe-button {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
   }
+
   .menu .toggle:hover {
     color: #00b381;
     transition: 0.5s all;
@@ -408,6 +415,7 @@ a.reqe-button {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
   }
+
   .toggle:hover {
     color: #000;
     transition: 0.5s all;
@@ -416,26 +424,30 @@ a.reqe-button {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
   }
+
   label.toggle.toogle-2 {
     background: transparent;
     text-transform: uppercase;
     font-size: 14px;
     color: #fff;
   }
+
   /* Display Dropdown when clicked on Parent Lable */
-  [id^="drop"]:checked + ul {
+  [id^="drop"]:checked+ul {
     display: block;
     background: #656565;
     padding: 15px 0;
     text-align: center;
     width: 100%;
   }
+
   /* Change menu item's width to 100% */
   nav ul li {
     display: block;
     width: 100%;
     padding: 5px 0;
   }
+
   nav ul ul .toggle,
   nav ul ul a {
     padding: 0 40px;
@@ -444,10 +456,12 @@ a.reqe-button {
   nav ul ul ul a {
     padding: 0 80px;
   }
+
   nav a:hover,
   nav ul ul ul a {
     background-color: transparent;
   }
+
   nav ul li ul li .toggle,
   nav ul ul a,
   nav ul ul ul a {
@@ -455,6 +469,7 @@ a.reqe-button {
     color: #fff;
     font-size: 15px;
   }
+
   /* 
 nav ul li ul li .toggle,
 nav ul ul a {
@@ -467,25 +482,30 @@ background-color: #212121;
     color: #ffffff;
     /* has to be the same number as the "line-height" of "nav a" */
   }
+
   /* Hide menus on hover */
-  nav ul ul li:hover > ul,
-  nav ul li:hover > ul {
+  nav ul ul li:hover>ul,
+  nav ul li:hover>ul {
     display: none;
   }
+
   /* Fisrt Tier Dropdown */
   nav ul ul li {
     display: block;
     width: 100%;
     padding: 0;
   }
+
   nav ul ul ul li {
     position: static;
     /* has to be the same number as the "width" of "nav ul ul li" */
   }
+
   nav a {
     color: #000;
     font-size: 15px;
   }
+
   .menu li.active a,
   .menu li a:hover {
     background: transparent;
@@ -493,6 +513,7 @@ background-color: #212121;
 }
 
 @media all and (max-width: 568px) {
+
   nav a,
   .menu .toggle,
   nav ul li ul li .toggle,
@@ -503,6 +524,7 @@ background-color: #212121;
 }
 
 @media all and (max-width: 320px) {
+
   nav a,
   .menu .toggle,
   nav ul li ul li .toggle,
@@ -1039,45 +1061,51 @@ footer p a:hover {
 
 /*--responsive--*/
 
-@media (max-width: 1920px) {
-}
+@media (max-width: 1920px) {}
 
-@media (max-width: 1680px) {
-}
+@media (max-width: 1680px) {}
 
-@media (max-width: 1600px) {
-}
+@media (max-width: 1600px) {}
 
 @media (max-width: 1440px) {
   .main-top {
     min-height: 680px;
   }
+
   .style-banner {
     padding-top: 15em;
   }
+
   .title {
     font-size: 42px;
   }
+
   .about-icon span {
     font-size: 38px;
   }
+
   .footer- -head h2 a {
     font-size: 27px;
   }
+
   .wthree-about-txt h5,
   .info-matter h5,
   .blog-left-sub h4 a {
     font-size: 31px;
   }
+
   .inner_page-banner {
     min-height: 270px;
   }
+
   .number-w3three-info h5 {
     font-size: 41px;
   }
+
   .mid-color-us {
     margin-top: 35px;
   }
+
   .address_mail_footer_grids iframe {
     height: 18em;
   }
@@ -1087,32 +1115,41 @@ footer p a:hover {
   .style-banner h5 {
     font-size: 47px;
   }
+
   .main-banner h4 {
     font-size: 2.5em;
   }
+
   .headder-top {
     padding: 1.5em 4em;
   }
+
   #logo a {
     font-size: 24px;
   }
+
   nav ul li a {
     padding: 5px 38px;
   }
+
   .title-wls-text p {
     font-size: 18px;
   }
+
   .news-date {
     width: 19%;
     height: 16%;
     line-height: 64px;
   }
+
   button.btn1 {
     padding: 9.5px 0;
   }
+
   .footer-address ul li h4 {
     font-size: 16px;
   }
+
   .table-wthree-price {
     padding: 1.7em 1.5em;
   }
@@ -1122,27 +1159,35 @@ footer p a:hover {
   .main-top {
     min-height: 640px;
   }
+
   .style-banner {
     padding-top: 13em;
   }
+
   .about-oil- {
     padding: 2.5em 1em;
   }
+
   .title {
     font-size: 40px;
   }
+
   .about-icon span {
     font-size: 36px;
   }
+
   .blog-left-sub {
     padding: 3em 2em 0em;
   }
+
   .news-date a span {
     font-size: 18px;
   }
+
   .counter-number {
     padding: 6em 2em;
   }
+
   .contact-forms textarea {
     height: 9em;
   }
@@ -1152,12 +1197,15 @@ footer p a:hover {
   nav ul li a {
     padding: 5px 29px;
   }
+
   .main-banner h4 {
     font-size: 2.3em;
   }
+
   .style-banner h5 {
     font-size: 44px;
   }
+
   .about-grid-title h4,
   .ser-sevice-grid h4,
   .blog-wthree-sub h4 a,
@@ -1168,40 +1216,50 @@ footer p a:hover {
   .contact-list-grid h4 {
     font-size: 21px;
   }
+
   .about-icon span {
     font-size: 33px;
   }
+
   .wthree-about-txt h5,
   .info-matter h5,
   .blog-left-sub h4 a {
     font-size: 29px;
   }
+
   .news-date {
     width: 22%;
     height: 16%;
     top: 105px;
   }
+
   .blog-images-us img {
     border: none;
     border-radius: 0px 0px 140px 0px;
     -moz-border-radius: 0px 0px 140px 0px;
     -webkit-border-radius: 0px 0px 140px 0px;
   }
+
   .title-wls-text p {
     padding: 0em 8em;
   }
+
   .newsletter input[type="email"] {
     padding: 10px 15px;
   }
+
   .number-w3three-info h5 {
     font-size: 38px;
   }
+
   .inner_page-banner {
     min-height: 245px;
   }
+
   .table-wthree-price {
     padding: 1.7em 1.5em;
   }
+
   .address_mail_footer_grids iframe {
     height: 16em;
   }
@@ -1211,18 +1269,23 @@ footer p a:hover {
   #logo a {
     font-size: 20px;
   }
+
   .view-buttn a {
     padding: 7px 17px;
   }
+
   .title-wls-text p {
     font-size: 17px;
   }
+
   .team-image .social-icons {
     padding: 21px 0px;
   }
+
   .table-sub-title h5 {
     font-size: 23px;
   }
+
   .table-sub-title h5 span {
     font-size: 16px;
   }
@@ -1232,24 +1295,31 @@ footer p a:hover {
   nav ul li a {
     padding: 5px 22px;
   }
+
   .headder-top {
     padding: 1.5em 3em;
   }
+
   .about-oil- {
     padding: 2em 1em;
   }
+
   .blog-left-sub {
     padding: 2em 1.5em 0em;
   }
+
   .footer- -head h2 a {
     font-size: 25px;
   }
+
   .title {
     font-size: 38px;
   }
+
   .counter-number {
     padding: 5em 2em;
   }
+
   .table-sub-title {
     padding-bottom: 1.2em;
   }
@@ -1259,59 +1329,75 @@ footer p a:hover {
   .main-top {
     min-height: 600px;
   }
+
   .style-banner h5 {
     font-size: 41px;
   }
+
   .main-banner h4 {
     font-size: 2.1em;
   }
+
   .about-abt-grid:nth-child(3),
   .about-abt-grid:nth-child(4) {
     margin-top: 38px;
   }
+
   .wthree-about-txt h5,
   .info-matter h5,
   .blog-left-sub h4 a {
     font-size: 25px;
   }
+
   .title-wls-text p {
     padding: 0em 5em;
   }
+
   .blog-grid-behind {
     width: 55%;
   }
+
   .blog-grid-behind:nth-child(2),
   .blog-grid-behind:nth-child(3) {
     margin-top: 27px;
   }
+
   .team-row-grid:nth-child(3),
   .team-row-grid:nth-child(4) {
     margin-top: 25px;
   }
+
   .color-img-five {
     height: 570px;
   }
+
   .news-date {
     width: 19%;
     height: 16%;
     top: 153px;
   }
-  . -left-side-img {
+
+  .left-side-img {
     margin: 26px 0px;
   }
+
   .number-w3three-info h5 {
     font-size: 36px;
   }
+
   .table-tab-table {
     width: 56%;
     margin: 0px auto;
   }
+
   .table-tab-table:nth-child(3) {
     margin-top: 41px;
   }
+
   .address_mail_footer_grids iframe {
     height: 14em;
   }
+
   .contact-forms input,
   .contact-forms textarea {
     padding: 0.7em 0.7em;
@@ -1322,22 +1408,28 @@ footer p a:hover {
   .headder-top {
     padding: 1.5em 2em;
   }
+
   .two-demo-button p,
   .info-matter p {
     font-size: 14px;
   }
+
   .about-oil- {
     padding: 1.5em 1em;
   }
+
   .news-date a {
     font-size: 13px;
   }
+
   .title-wls-text p {
     font-size: 16px;
   }
+
   .title {
     font-size: 36px;
   }
+
   .table-list-txt {
     padding: 1.7em 0em 1em;
   }
@@ -1347,27 +1439,35 @@ footer p a:hover {
   .main-top {
     min-height: 540px;
   }
+
   .style-banner {
     padding-top: 11.5em;
   }
+
   nav ul li a {
     padding: 5px 16px;
   }
+
   .style-banner h5 {
     font-size: 37px;
   }
+
   .main-banner h4 {
     font-size: 2em;
   }
+
   #logo a {
     font-size: 15px;
   }
+
   .inner_page-banner {
     min-height: 219px;
   }
+
   .number-w3three-info h5 {
     font-size: 33px;
   }
+
   .sent-butnn {
     font-size: 15px;
   }
@@ -1377,11 +1477,13 @@ footer p a:hover {
   .about-icon span {
     font-size: 30px;
   }
+
   .wthree-about-txt h5,
   .info-matter h5,
   .blog-left-sub h4 a {
     font-size: 24px;
   }
+
   button.btn1 {
     width: 23%;
   }
@@ -1391,44 +1493,57 @@ footer p a:hover {
   .headder-top {
     padding: 1em 1.5em;
   }
+
   .about-two-grids {
     margin-top: 20px;
   }
+
   .about-oil- {
     padding: 1.5em 1em;
   }
+
   .title {
     font-size: 34px;
     letter-spacing: 1px;
   }
+
   .color-img-five {
     height: 470px;
     margin-top: 35px;
   }
+
   .title-wls-text p {
     padding: 0em 0.5em;
   }
+
   .blog-grid-behind {
     width: 73%;
   }
+
   .footer- -head h2 a {
     font-size: 24px;
   }
+
   .footer-info-bottom {
     margin-top: 20px;
   }
+
   button.btn1 {
     font-size: 15px;
   }
+
   .counter-number {
     padding: 4em 2em;
   }
+
   .table-tab-table {
     width: 72%;
   }
+
   .address_mail_footer_grids iframe {
     height: 12em;
   }
+
   .contact-form {
     margin-top: 25px;
   }
@@ -1438,15 +1553,19 @@ footer p a:hover {
   .main-top {
     min-height: 495px;
   }
+
   .style-banner {
     padding-top: 9.5em;
   }
+
   .main-banner h4 {
     font-size: 1.8em;
   }
+
   .style-banner h5 {
     font-size: 35px;
   }
+
   .about-grid-title h4,
   .ser-sevice-grid h4,
   .blog-wthree-sub h4 a,
@@ -1457,12 +1576,14 @@ footer p a:hover {
   .contact-list-grid h4 {
     font-size: 20px;
   }
+
   .news-date {
     width: 17%;
     height: 14%;
     top: 160px;
     line-height: 56px;
   }
+
   .inner_page-banner {
     min-height: 206px;
   }
@@ -1472,32 +1593,41 @@ footer p a:hover {
   .title-wls-text p {
     font-size: 15px;
   }
+
   .blog-date-time ul li a {
     font-size: 13px;
   }
+
   .news-date a span {
     font-size: 17px;
   }
+
   button.btn1 {
     padding: 7.5px 0;
   }
+
   .newsletter input[type="email"] {
     padding: 8px 15px;
   }
+
   .social-icons a span,
   .icons a span {
     margin-right: 0.5em;
     font-size: 14px;
   }
+
   .number-w3three-info h5 {
     font-size: 30px;
   }
+
   .counter-number {
     padding: 3em 2em;
   }
+
   .table-sub-title h5 {
     font-size: 21px;
   }
+
   .address_mail_footer_grids iframe {
     height: 10em;
   }
@@ -1507,23 +1637,29 @@ footer p a:hover {
   .style-banner h5 {
     font-size: 33px;
   }
+
   .view-buttn a {
     letter-spacing: 0px;
   }
+
   .color-img-five {
     height: 423px;
   }
+
   .wthree-about-txt h5,
   .info-matter h5,
   .blog-left-sub h4 a {
     font-size: 23px;
   }
+
   .team-image .social-icons {
     padding: 17px 0px;
   }
+
   .inner_page-banner {
     min-height: 193px;
   }
+
   .number-w3three-info h5 {
     font-size: 28px;
   }
@@ -1533,49 +1669,62 @@ footer p a:hover {
   .main-top {
     min-height: 460px;
   }
+
   .style-banner {
     padding-top: 9em;
   }
+
   .title {
     font-size: 32px;
   }
+
   .footer- -head h2 a {
     font-size: 22px;
   }
+
   .table-wthree-price {
     padding: 1.5em 1.5em;
   }
 }
 
 @media (max-width: 568px) {
+
   .about-abt-grid,
   .team-row-grid {
     width: 50%;
   }
+
   .service-grid-wthree:nth-child(2) {
     margin-top: 28px;
   }
+
   .style-banner h5 {
     font-size: 31px;
   }
+
   .wthree-about-txt h5,
   .info-matter h5,
   .blog-left-sub h4 a {
     font-size: 22px;
   }
+
   .footer-address ul li h4 {
     font-size: 15px;
   }
+
   .number-w3three-info {
     width: 50%;
   }
+
   .table-list-txt {
     padding: 1.5em 0em 1em;
   }
+
   .contact-forms input,
   .contact-forms textarea {
     padding: 0.6em 0.7em;
   }
+
   .gallery-img-grid:nth-child(2) {
     margin-top: 18px;
   }
@@ -1585,15 +1734,19 @@ footer p a:hover {
   .main-top {
     min-height: 441px;
   }
+
   .blog-grid-behind {
     width: 86%;
   }
+
   .bottem-wthree-footer p {
     letter-spacing: 1px;
   }
+
   .number-w3three-info h5 {
     font-size: 26px;
   }
+
   .table-tab-table {
     width: 76%;
   }
@@ -1603,42 +1756,54 @@ footer p a:hover {
   .headder-top {
     padding: 1em 0.5em;
   }
+
   .about-oil- {
     padding: 1em 1em;
   }
+
   .title-wls-text p {
     font-size: 14px;
   }
+
   .color-img-five {
     height: 380px;
   }
+
   .blog-grid-behind {
     width: 94%;
   }
+
   .about-abt-grid,
   .team-row-grid {
     width: 76%;
     margin: 0px auto;
   }
+
   .about-abt-grid:nth-child(2),
   .team-row-grid:nth-child(2) {
     margin-top: 35px;
   }
+
   .bottem-wthree-footer p {
     line-height: 28px;
   }
+
   .number-w3three-info h6 {
     font-size: 15px;
   }
+
   .table-sub-title h5 {
     font-size: 19px;
   }
+
   .table-tab-table {
     width: 82%;
   }
+
   .contact-forms textarea {
     height: 8em;
   }
+
   .popup {
     max-width: 376px;
   }
@@ -1648,24 +1813,31 @@ footer p a:hover {
   .blog-grid-behind {
     width: 100%;
   }
+
   .style-banner {
     padding-top: 7.5em;
   }
+
   .main-banner h4 {
     font-size: 1.6em;
   }
+
   #logo a {
     font-size: 14px;
   }
+
   .stats {
     min-height: 230px;
   }
+
   .inner_page-banner {
     min-height: 173px;
   }
+
   .table-wthree-price {
     padding: 1em 1.5em;
   }
+
   .popup {
     max-width: 351px;
   }
@@ -1675,6 +1847,7 @@ footer p a:hover {
   .main-top {
     min-height: 413px;
   }
+
   .about-grid-title h4,
   .ser-sevice-grid h4,
   .blog-wthree-sub h4 a,
@@ -1685,25 +1858,32 @@ footer p a:hover {
   .contact-list-grid h4 {
     font-size: 19px;
   }
+
   .about-icon span {
     font-size: 28px;
   }
+
   .news-date {
     top: 149px;
   }
+
   .about-abt-grid,
   .team-row-grid {
     width: 85%;
   }
+
   .number-w3three-info h5 {
     font-size: 23px;
   }
+
   .table-list-txt {
     padding: 1.2em 0em 1em;
   }
+
   .table-tab-table {
     width: 87%;
   }
+
   .popup {
     max-width: 329px;
   }
@@ -1713,18 +1893,23 @@ footer p a:hover {
   .color-img-five {
     height: 354px;
   }
+
   .main-banner h4 {
     font-size: 1.4em;
   }
+
   .style-banner h5 {
     font-size: 20px;
   }
+
   .news-date {
     top: 139px;
   }
+
   .counter-number {
     padding: 2em 1.5em;
   }
+
   .sent-butnn {
     font-size: 14px;
   }
@@ -1734,41 +1919,52 @@ footer p a:hover {
   .main-top {
     min-height: 387px;
   }
+
   .about-abt-grid,
   .team-row-grid {
     width: 100%;
   }
+
   .about-icon span {
     font-size: 26px;
   }
+
   .color-img-five {
     height: 332px;
   }
+
   .wthree-about-txt h5,
   .info-matter h5,
   .blog-left-sub h4 a {
     font-size: 20px;
   }
+
   .blog-date-time ul li span {
     font-size: 13px;
     padding-right: 13px;
   }
+
   .news-date {
     top: 100px;
     width: 21%;
   }
+
   .stats {
     min-height: 200px;
   }
+
   .counter-number {
     padding: 1.5em 1.5em;
   }
+
   .table-tab-table {
     width: 100%;
   }
+
   .table-list-txt {
     padding: 1em 0em 1em;
   }
+
   .popup {
     max-width: 272px;
   }
@@ -1791,10 +1987,12 @@ footer p a:hover {
   align-items: center;
   color: #ffb100;
 }
+
 .custombar h2 {
   z-index: 10;
   font-size: 3rem;
 }
+
 .custombar::before {
   content: "";
   height: 250px;
@@ -1839,9 +2037,10 @@ footer p a:hover {
 .custom-card {
   text-align: center;
   background: white;
+  user-select: none;
   padding: 12px;
   display: flex;
-  width: 250px;
+  width: 300px;
   flex-direction: column;
   box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.2);
   align-items: center;
@@ -1849,9 +2048,11 @@ footer p a:hover {
   transition: 0.3s;
   cursor: pointer;
 }
+
 .custom-card h5 {
   font-size: 18px !important;
 }
+
 .custom-card:hover {
   box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.5);
 }
@@ -1861,6 +2062,7 @@ footer p a:hover {
   justify-content: center;
   align-items: center;
 }
+
 .fotter_list {
   margin-left: 60px;
 }
@@ -1873,15 +2075,19 @@ footer p a:hover {
 .listchild li a {
   color: #ffb100;
 }
+
 .listchild li a:hover {
   color: #0044ffbf;
 }
+
 .listhead {
   color: white;
 }
+
 .product-parent {
   display: flex;
 }
+
 .myproduct_img {
   padding: 30px;
   width: 37vw;
@@ -1889,10 +2095,11 @@ footer p a:hover {
   justify-content: center;
   align-items: center;
 
-  
+
 }
+
 .myproduct_img img {
-  width:40 vh;
+  width: 40 vh;
 }
 
 .about-para-txt {
@@ -1911,13 +2118,16 @@ footer p a:hover {
     width: auto;
     padding: 30px;
   }
+
   .custom-card {
     width: 360px;
     margin: 10px auto;
   }
+
   .myproduct_img img {
     width: auto;
   }
+
   .myproduct_img {
     justify-content: center;
     align-items: center;
@@ -1925,12 +2135,66 @@ footer p a:hover {
     width: 40vh;
     display: flex;
   }
+
   .product-parent {
     flex-direction: column;
   }
 }
 
 
-@media only screen and (max-width: 768px) {
-  
+@media only screen and (max-width: 768px) {}
+
+
+
+
+
+/* 
+html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.container{
+max-width: 1280px;
+margin: 0 auto;
+height: 100%;
+} */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  margin: auto;
+  position: relative;
+}
+
+/* .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+} */
+.swiper-wrapper{
+  width: 80%;
+}
+.swiper-slide {
+  max-width: max-content;
+  width: 300px;
 }
