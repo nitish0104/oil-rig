@@ -2093,6 +2093,7 @@ footer p a:hover {
 
 .product-parent {
   display: flex;
+  margin: 30px 120px;
 }
 .parent-product-123{
   display: flex;
@@ -2100,7 +2101,7 @@ footer p a:hover {
 }
 .product-parent:nth-child(even) {
   flex-direction: row-reverse;
-  /* background-color: rgba(0, 0, 0, 0.042); */
+  background-color: rgba(0, 0, 0, 0.048);
 }
 .product-parent:nth-child(odd) {
   /* flex-direction: row-reverse; */
@@ -2153,6 +2154,9 @@ footer p a:hover {
 @media only screen and (max-width: 428px) {
   .product-parent:nth-child(even) {
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.048);
+    background-color: rgba(0, 0, 0, 0.079);
+
   }
   .swiper-wrapper {
     width: 100%;
@@ -2189,6 +2193,7 @@ footer p a:hover {
 
   .product-parent {
     flex-direction: column;
+    margin: 10px;
   }
 }
 
