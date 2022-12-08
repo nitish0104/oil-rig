@@ -283,7 +283,7 @@ nav ul ul {
 
 /* Display Dropdowns on Hover */
 
-nav ul li:hover>ul {
+nav ul li:hover > ul {
   display: inherit;
 }
 
@@ -339,7 +339,7 @@ nav ul ul ul li {
 
 /* Change ' +' in order to change the Dropdown symbol */
 
-li>a:only-child:after {
+li > a:only-child:after {
   content: "";
 }
 
@@ -372,7 +372,7 @@ a.reqe-button {
 
   /* Hide the navigation menu by default */
   /* Also hide the  */
-  .toggle+a,
+  .toggle + a,
   .menu {
     display: none;
   }
@@ -433,7 +433,7 @@ a.reqe-button {
   }
 
   /* Display Dropdown when clicked on Parent Lable */
-  [id^="drop"]:checked+ul {
+  [id^="drop"]:checked + ul {
     display: block;
     background: #656565;
     padding: 15px 0;
@@ -484,8 +484,8 @@ background-color: #212121;
   }
 
   /* Hide menus on hover */
-  nav ul ul li:hover>ul,
-  nav ul li:hover>ul {
+  nav ul ul li:hover > ul,
+  nav ul li:hover > ul {
     display: none;
   }
 
@@ -513,7 +513,6 @@ background-color: #212121;
 }
 
 @media all and (max-width: 568px) {
-
   nav a,
   .menu .toggle,
   nav ul li ul li .toggle,
@@ -524,7 +523,6 @@ background-color: #212121;
 }
 
 @media all and (max-width: 320px) {
-
   nav a,
   .menu .toggle,
   nav ul li ul li .toggle,
@@ -1061,11 +1059,14 @@ footer p a:hover {
 
 /*--responsive--*/
 
-@media (max-width: 1920px) {}
+@media (max-width: 1920px) {
+}
 
-@media (max-width: 1680px) {}
+@media (max-width: 1680px) {
+}
 
-@media (max-width: 1600px) {}
+@media (max-width: 1600px) {
+}
 
 @media (max-width: 1440px) {
   .main-top {
@@ -1688,7 +1689,6 @@ footer p a:hover {
 }
 
 @media (max-width: 568px) {
-
   .about-abt-grid,
   .team-row-grid {
     width: 50%;
@@ -2043,7 +2043,7 @@ footer p a:hover {
   display: flex;
   width: 300px;
   flex-direction: column;
-  
+
   align-items: center;
   border-radius: 8px;
   transition: 0.3s;
@@ -2054,7 +2054,7 @@ footer p a:hover {
   font-size: 18px !important;
 }
 
-.swiper-slide{
+.swiper-slide {
   box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
@@ -2074,7 +2074,9 @@ footer p a:hover {
 
 .myproduct_img {
   margin-bottom: 40px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .listchild li a {
@@ -2092,6 +2094,18 @@ footer p a:hover {
 .product-parent {
   display: flex;
 }
+.parent-product-123{
+  display: flex;
+  flex-direction: column;
+}
+.product-parent:nth-child(even) {
+  flex-direction: row-reverse;
+  /* background-color: rgba(0, 0, 0, 0.042); */
+}
+.product-parent:nth-child(odd) {
+  /* flex-direction: row-reverse; */
+  background-color: rgba(0, 0, 0, 0.079);
+}
 
 .myproduct_img {
   padding: 30px;
@@ -2099,12 +2113,13 @@ footer p a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .myproduct_img img {
-  width: 40 vh;
+  width: 40vh;
+}
+.myproduct_img_tem img {
+  width: 70vh;
 }
 
 .about-para-txt {
@@ -2115,10 +2130,18 @@ footer p a:hover {
   align-items: center;
   padding-right: 60px;
 }
+.about-para-txt-ourmession {
+  /* width: 63vw; */
+  display: flex;
+  padding-left: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-right: 60px;
+}
 
-.swiper-wrapper{
+.swiper-wrapper {
   width: 80%;
-  padding-bottom: 25px ;
+  padding-bottom: 25px;
 }
 .swiper-slide {
   max-width: 300px;
@@ -2128,16 +2151,21 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 428px) {
-  .swiper-wrapper{
+  .product-parent:nth-child(even) {
+    flex-direction: column;
+  }
+  .swiper-wrapper {
     width: 100%;
   }
   .about-para-txt {
     justify-content: center;
     align-items: center;
     width: auto;
-    padding: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
-  .swiper-slide{
+  .swiper-slide {
     max-width: 300px;
     width: 300px !important;
   }
@@ -2147,9 +2175,9 @@ footer p a:hover {
     max-width: max-content;
   }
 
-  .myproduct_img img {
+  /* .myproduct_img img {
     width: auto;
-  }
+  } */
 
   .myproduct_img {
     justify-content: center;
@@ -2164,16 +2192,11 @@ footer p a:hover {
   }
 }
 
-
 @media only screen and (max-width: 768px) {
-  .swiper-wrapper{
+  .swiper-wrapper {
     width: 100%;
   }
 }
-
-
-
-
 
 /* 
 html, body {
@@ -2198,7 +2221,7 @@ height: 100%;
   height: 100%;
   /* overflow: hidden; */
   /* margin: auto; */
-  /* position: relative; */
+  position: relative;
 }
 
 /* .swiper-slide {
