@@ -2336,11 +2336,7 @@ footer p a:hover {
     font-weight: bolder;
   }
 
-  .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
 }
 
 @media  (min-width: 1050px){
