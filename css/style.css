@@ -196,6 +196,8 @@ ul li {
   width: 90%;
   height: 90%;
   border-radius: 8px 8px 0 0;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
 .card .profile-details {
   display: flex;
