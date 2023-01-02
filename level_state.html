@@ -29,6 +29,16 @@
 	<!--//stylesheets-->
 	<link href="//fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+
+	   <!-- font-awesome -->
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+	   integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+	   crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="//fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+		   <!-- animation -->
+		   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -41,46 +51,49 @@
 				<div id="logo">
 					<h1><a href="index.html">RELIANCE PROJECTS TECHNOLOGIES LLC</a></h1>
 				</div>
-				<label for="drop" class="toggle">Menu</label>
+				<label for="drop" class="toggle"><i class="fa-solid fa-bars"></i></label>
 				<input type="checkbox" id="drop">
 				<ul class="menu mt-2">
 					<li class="active"><a href="index.html">Home</a></li>
-					<li class="mx-lg-3 mx-md-2 my-md-0 my-1"><a href="about.html">About</a></li>
-					<li><a href="service.html">Services</a></li>
+	 
 					<li class="mx-lg-3 mx-md-2 my-md-0 my-1">
-						<!-- First Tier Drop Down -->
-
-						<!-- Second Tier Drop Down -->
-						<label for="droptwo-2" class="toggle toogle-2">Products <span class="fa fa-angle-down"
-								aria-hidden="true"></span>
-						</label>
-						<a href="#">Products <span class="fa fa-angle-down" aria-hidden="true"></span></a>
-						<input type="checkbox" id="droptwo-2">
-						<ul>
-							<li><a href="metrix.html" class="drop-text">METRIX</a></li>
-							<li><a href="marathon.html" class="drop-text">Marathon</a></li>
-							<li><a href="tempsens.html" class="drop-text">Tempsens</a></li>
-							<li><a href="level_state.html" class="drop-text">Level State</a></li>
-							<li><a href="#" class="drop-text">Other Products</a></li>
-						</ul>
+					   <!-- First Tier Drop Down -->
+					   <label for="droptwo-2" class="toggle toogle-2">Products <span class="fa fa-angle-down"
+							 aria-hidden="true"></span>
+					   </label>
+					   <a href="#">Products <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+					   <input type="checkbox" id="droptwo-2">
+					   <ul>
+						  <li><a href="metrix.html" class="drop-text">METRIX</a></li>
+						  <li><a href="marathon.html" class="drop-text">MARATHON</a></li>
+						  <li><a href="seko.html" class="drop-text">SEKO</a></li>
+						  <li><a href="shalimar.html" class="drop-text">SHALIMAR</a></li>
+						  <li><a href="freudenberg.html" class="drop-text">FREUDENBERG</a></li>
+						  <li><a href="level_state.html" class="drop-text">LEVE-LSTATE</a></li>
+						  <li><a href="viega.html" class="drop-text">VIEGA</a></li>
+					   </ul>
 					</li>
-
 					<li><a href="contact.html">Contact Us</a></li>
-				</ul>
+					<a href="https://wa.me/+917057094772" target="_blank" class="social_media"><i
+						  class="fa-brands fa-whatsapp "></i></a>
+					<a href="#" class="social_media"><i class="fa-brands fa-facebook "></i></a>
+					<a href="#" class="social_media"><i class="fa-brands fa-twitter "></i></a>
+	 
+				 </ul>
 			</nav>
 			<!-- //nav -->
 		</div>
 		<!-- //header -->
 		<!-- banner -->
 
-		<section id="matrix" class="text-gray-600 body-font">
+		<section id="metrix" class="text-gray-600 body-font" data-aos="fade-up" data-aos-duration="2000">
 			<div class="custombar">
 				<h2>LEVEL STATE</h2>
 			</div>
 		</section>
 
 
-		<section class="about " id="about">
+		<section class="about " id="about" data-aos="fade-up" data-aos-duration="1500">
 			<div>
 				<div>
 					<h2 class="text-center mb-4">
@@ -190,6 +203,10 @@
 	</div>
 	</footer>
 	<!--//footer -->
+	<script>
+		AOS.init();
+	 </script>
+
 
 </body>
 

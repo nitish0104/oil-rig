@@ -27,9 +27,20 @@
    <!-- //font-awesome icons -->
    <!--stylesheets-->
    <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+   
+	   <!-- font-awesome -->
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+	   integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+	   crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="//fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
    <!--//stylesheets-->
    <link href="//fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700" rel="stylesheet">
    <link href="//fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+
+      <!-- animation -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -41,7 +52,7 @@
             <div id="logo">
                <h1><a href="index.html">RELIANCE PROJECTS TECHNOLOGIES LLC</a></h1>
             </div>
-            <label for="drop" class="toggle">Menu</label>
+            <label for="drop" class="toggle"><i class="fa-solid fa-bars"></i></label>
             <input type="checkbox" id="drop">
             <ul class="menu mt-2">
                <li class="active"><a href="index.html">Home</a></li>
@@ -78,16 +89,17 @@
       <div class="inner_breadcrumb  ml-4">
          <ul class="short_ls">
             <li>
-               <a href="index.html">Home</a>
-               <span> /</span>
+               <a href="index.html" class="text-dark">Home</a>
+               <span>/</span>
+               <li>Contact</li>
+               
             </li>
-            <li>Contact</li>
          </ul>
       </div>
    </div>
    <!-- //short-->
    <!--contact -->
-   <section class="contact py-lg-4 py-md-3 py-sm-3 py-3">
+   <section class="contact py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in">
       <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
          <h3 class="title text-center mb-md-4 mb-sm-3 mb-3 mb-2">Contact Us</h3>
          <div class="title-wls-text text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">
@@ -214,6 +226,9 @@
       </div>
       </div>
    </footer>
+   <script>
+		AOS.init();
+	 </script>
 </body>
 
 </html>

@@ -563,3 +563,53 @@ FOOTER WITH NewsLetter
 				<!--//move icon -->
 			</div>
 		</footer>
+
+
+    123 index.html
+
+       <div class="row mt-lg-5 mt-md-4 mt-3">
+            <div class="col-lg-3 col-md-6 col-sm-6 about-abt-grid">
+               <div class="about-oil-   text-center">
+                  <div class="about-icon mb-lg-5 mb-md-4 mb-3">
+                     <span class="fa fa-tint" aria-hidden="true"></span>
+                  </div>
+                  <div class="about-grid-title">
+                     <h4 class="mb-lg-3 mb-2">Oil Drilling </h4>
+                     <p>sed do eiusmod tempor incididunt</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 about-abt-grid">
+               <div class="about-oil-   text-center">
+                  <div class="about-icon mb-lg-5 mb-md-4 mb-3">
+                     <span class="fa fa-fire-extinguisher" aria-hidden="true"></span>
+                  </div>
+                  <div class="about-grid-title">
+                     <h4 class="mb-lg-3 mb-2">Gas Flares </h4>
+                     <p>sed do eiusmod tempor incididunt</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 about-abt-grid">
+               <div class="about-oil-   text-center">
+                  <div class="about-icon mb-lg-5 mb-md-4 mb-3">
+                     <span class="fa fa-cogs" aria-hidden="true"></span>
+                  </div>
+                  <div class="about-grid-title">
+                     <h4 class="mb-lg-3 mb-2">Oil Refineries</h4>
+                     <p>sed do eiusmod tempor incididunt</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 about-abt-grid">
+               <div class="about-oil-   text-center">
+                  <div class="about-icon mb-lg-5 mb-md-4 mb-3">
+                     <span class="fa fa-free-code-camp" aria-hidden="true"></span>
+                  </div>
+                  <div class="about-grid-title">
+                     <h4 class="mb-lg-3 mb-2">Completions</h4>
+                     <p>sed do eiusmod tempor incididunt</p>
+                  </div>
+               </div>
+            </div>
+         </div>

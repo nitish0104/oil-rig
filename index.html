@@ -29,8 +29,22 @@
    <!--stylesheets-->
    <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
    <!--//stylesheets-->
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link href="//fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700" rel="stylesheet">
    <link href="//fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+
+   <!-- animation -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+   <!-- card swiper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+
 </head>
 
 <body>
@@ -38,20 +52,17 @@
       <!-- header -->
       <div class="headder-top" style="background: linear-gradient(black , rgba(0,0,0,0.001));;">
          <!-- nav -->
-         <nav>
+         <nav data-aos="fade-up">
             <div id="logo">
                <h5><a href="index.html">RELIANCE PROJECTS TECHNOLOGIES LLC</a></h5>
             </div>
-            <label for="drop" class="toggle">Menu</label>
+            <label for="drop" class="toggle"><i class="fa-solid fa-bars"></i></label>
             <input type="checkbox" id="drop">
             <ul class="menu mt-2">
                <li class="active"><a href="index.html">Home</a></li>
-               <li class="mx-lg-3 mx-md-2 my-md-0 my-1"><a href="about.html">About</a></li>
-               <li><a href="service.html">Services</a></li>
+
                <li class="mx-lg-3 mx-md-2 my-md-0 my-1">
                   <!-- First Tier Drop Down -->
-
-                  <!-- Second Tier Drop Down -->
                   <label for="droptwo-2" class="toggle toogle-2">Products <span class="fa fa-angle-down"
                         aria-hidden="true"></span>
                   </label>
@@ -59,28 +70,34 @@
                   <input type="checkbox" id="droptwo-2">
                   <ul>
                      <li><a href="metrix.html" class="drop-text">METRIX</a></li>
-                     <li><a href="marathon.html" class="drop-text">Marathon</a></li>
-                     <li><a href="tempsens.html" class="drop-text">Tempsens</a></li>
-                     <li><a href="level_state.html" class="drop-text">Level State</a></li>
-                     <li><a href="#" class="drop-text">Other Products</a></li>
+                     <li><a href="marathon.html" class="drop-text">MARATHON</a></li>
+                     <li><a href="seko.html" class="drop-text">SEKO</a></li>
+                     <li><a href="shalimar.html" class="drop-text">SHALIMAR</a></li>
+                     <li><a href="freudenberg.html" class="drop-text">FREUDENBERG</a></li>
+                     <li><a href="level_state.html" class="drop-text">LEVE-LSTATE</a></li>
+                     <li><a href="viega.html" class="drop-text">VIEGA</a></li>
                   </ul>
                </li>
-
                <li><a href="contact.html">Contact Us</a></li>
+               <a href="https://wa.me/+917057094772" target="_blank" class="social_media"><i
+                     class="fa-brands fa-whatsapp "></i></a>
+               <a href="#" class="social_media"><i class="fa-brands fa-facebook "></i></a>
+               <a href="#" class="social_media"><i class="fa-brands fa-twitter "></i></a>
+
             </ul>
          </nav>
          <!-- //nav -->
       </div>
       <!-- //header -->
       <!-- banner -->
-      <div class="main-banner text-center">
+      <div class="main-banner text-center" data-aos="fade-up" data-aos-duration="3000">
          <div class="container">
             <div class="style-banner ">
-               <h4 class="mb-lg-3 mb-2">Welcome To</h4>
-               <h5>RELIANCE PROJECTS TECHNOLOGIES LLC Company
+               <h4 class="mb-lg-3">Welcome To</h4>
+               <h5 class="mb-5">RELIANCE PROJECTS TECHNOLOGIES LLC Company
                </h5>
             </div>
-            <div class="two-demo-button mt-lg-5 mt-md-4 mt-3 ">
+            <div class="two-demo-button mt-lg-5 mt-md-4 mt-3 mb-5 ">
                <p>RELIANCE PROJECTS TECHNOLOGIES LLC PROJECTS TECHNOLOGIES LLC is incorporated under the guidelines of
                   Sultanate of Oman to extend
                   its vast experience of operational presence locally. We represent renowned manufacturers and service
@@ -93,94 +110,211 @@
          </div>
       </div>
    </div>
-   <!-- //banner -->
-   <!-- about -->
-   <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
-      <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+
+   <!-- mission -->
+   <section data-aos="fade-right" data-aos-duration="3000" class="about py-lg-4 py-md-3 py-sm-3 " id="about">
+      <div class="container py-lg-5 py-md-4 py-sm-4 py-3 mx-lg-">
          <div class="row">
             <div class="col-lg-5 col-md-6 about-imgs-txt">
-               <img src="images/ab1.png" alt="news image" class="img-fluid">
+               <img src="images/bg1.jpg" alt="news image" class="img-fluid rounded-3" class="rounded"
+                  style="    height: -webkit-fill-available; border-radius: 3%;">
             </div>
             <div class="col-lg-7 col-md-6 text-right about-two-grids">
-               <div class="wthree-about-txt mb-lg-5 mb-md-4 mb-3  text-justify">
-                  <h5>Our Mission</h5>
-               </div>
+               <h2 class="wthree-about-txt mb-lg-5 mb-md-4 mb-3  text-justify fs-1 fw-bold  "
+                  style="    font-size: xx-large; font-weight: 400;">Our Mission
+
+               </h2>
                <div class="about-para-txt-ourmission text-justify px-2">
-                  <p>RELIANCE PROJECTS TECHNOLOGIES LLC Projects Technologies LLC is managed by a team of experienced
-                     professionals, which coupled
-                     with its mission to keep abreast of the latest technological innovations worldwide is adequately
-                     geared towards meeting the needs of its clients in the years to come. The company operates in
-                     strict accordance with international organization for standardization . Our expertise lies in both
-                     upstream and downstream segments of the oil and gas business.
+                  <p class="indent-8"> RELIANCE PROJECTS TECHNOLOGIES LLC is incorporated under the guidelines of
+                     Sultanate of Oman to
+                     extend its vast experience of operational presence locally.
+                     We represent renowned manufacturers and service companies known to the Oil and Gas industry, and we
+                     work hand-in-hand to succeed in their business endeavours
+                     by offering state-of-art and cost-effective solution.
+                     Reliance Projects Technologies LLC supplies wide range of mechanical, instruments, electrical and
+                     safety products used in oil and gas industry.
+                     Reliance Projects Technologies LLC is managed by a team of experienced professionals, which coupled
+                     with its mission to keep abreast of the latest technological
+                     innovations worldwide is adequately geared towards meeting the needs of its clients in the years to
+                     come. The company operates in strict accordance with international
+                     organization for standardization . Our expertise lies in both upstream and downstream segments of
+                     the oil and gas business.
                   </p>
                   <p class="mt-2"></p>
                </div>
-               <div class="view-buttn mt-md-4 mt-sm-4 mt-3">
+               <!-- <div class="view-buttn mt-md-4 mt-sm-4 mt-3">
                   <a href="about.html" class=" btn scroll">Read More</a>
-               </div>
+               </div> -->
             </div>
          </div>
-         <div class="row mt-lg-5 mt-md-4 mt-3">
-            <div class="col-lg-3 col-md-6 col-sm-6 about-abt-grid">
-               <div class="about-oil-   text-center">
-                  <div class="about-icon mb-lg-5 mb-md-4 mb-3">
-                     <span class="fa fa-tint" aria-hidden="true"></span>
-                  </div>
-                  <div class="about-grid-title">
-                     <h4 class="mb-lg-3 mb-2">Oil Drilling </h4>
-                     <p>sed do eiusmod tempor incididunt</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 about-abt-grid">
-               <div class="about-oil-   text-center">
-                  <div class="about-icon mb-lg-5 mb-md-4 mb-3">
-                     <span class="fa fa-fire-extinguisher" aria-hidden="true"></span>
-                  </div>
-                  <div class="about-grid-title">
-                     <h4 class="mb-lg-3 mb-2">Gas Flares </h4>
-                     <p>sed do eiusmod tempor incididunt</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 about-abt-grid">
-               <div class="about-oil-   text-center">
-                  <div class="about-icon mb-lg-5 mb-md-4 mb-3">
-                     <span class="fa fa-cogs" aria-hidden="true"></span>
-                  </div>
-                  <div class="about-grid-title">
-                     <h4 class="mb-lg-3 mb-2">Oil Refineries</h4>
-                     <p>sed do eiusmod tempor incididunt</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 about-abt-grid">
-               <div class="about-oil-   text-center">
-                  <div class="about-icon mb-lg-5 mb-md-4 mb-3">
-                     <span class="fa fa-free-code-camp" aria-hidden="true"></span>
-                  </div>
-                  <div class="about-grid-title">
-                     <h4 class="mb-lg-3 mb-2">Completions</h4>
-                     <p>sed do eiusmod tempor incididunt</p>
-                  </div>
-               </div>
-            </div>
-         </div>
+
       </div>
    </section>
-   <!-- //about  -->
-   <!-- service -->
-   <section class="service py-lg-4 py-md-3 py-sm-3 py-3" id="service">
+   <!-- products -->
+   <section data-aos="fade-left" class="service py-lg-4 py-md-3  py-3" id="service">
       <div class="container-fluid py-lg-5 py-md-4 py-sm-4 py-3">
-         <h3 class="title text-center mb-md-4 mb-sm-3 mb-3 mb-2">Our Service</h3>
+         <h3 class="title text-center mb-md-4 mb-sm-3 mb-3 mb-2">Our Products</h3>
          <div class="title-wls-text text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">
             <p>We provide wide range of mechanical, instruments, electrical and safety products used in oil and gas
                industry. </p>
          </div>
-         <div class="row">
+         <div class="container py-lg-2 py-md-1 ">
+            <!-- <div class="swiper-button-prev" style="height: 20px; width: 30px;"></div> -->
+            <div class="container swiper">
+               <div class="slide-container">
+                  <div class="card-wrapper swiper-wrapper">
+                     <div class="card swiper-slide">
+                        <div class="image-box">
+                           <img src="images/mainseko.png" alt="" />
+                        </div>
+                        <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name "></h1>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card swiper-slide">
+                        <div class="image-box">
+                           <img src="images/mainmetrix.png" alt="" />
+                        </div>
+                        <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name "></h1>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card swiper-slide">
+                        <div class="image-box">
+                           <img src="images/mainlevelstate.png" alt="" />
+                        </div>
+                        <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name "></h1>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card swiper-slide">
+                        <div class="image-box">
+                           <img src="images/mainmarathon.png" alt="" />
+                        </div>
+                        <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name "></h1>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card swiper-slide">
+                        <div class="image-box">
+                           <img src="images/mainvega.png" alt="" />
+                        </div>
+                        <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name "></h1>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card swiper-slide">
+                        <div class="image-box">
+                           <img src="images/mainshalimar.jpg" alt="" />
+                        </div>
+                        <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name "></h1>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card swiper-slide">
+                        <div class="image-box">
+                           <img src="images/viegafinal.png" alt="" />
+                        </div>
+                        <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name "></h1>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- <div class="card swiper-slide">
+                        <div class="image-box">
+                           <img src="images/marathon7.jpg" alt="" />
+                        </div>
+                        <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name "></h1>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card swiper-slide">
+                        <div class="image-box">
+                           <img src="images/metrix3.png" alt="" />
+                        </div>
+                        <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name "></h1>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card swiper-slide">
+                        <div class="image-box">
+                           <img src="images/metrix1.png" alt="" />
+                        </div>
+                        <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name "></h1>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card swiper-slide">
+                        <div class="image-box">
+                           <img src="images/finalfreud.jpg" alt="" />
+                        </div>
+                        <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name "></h1>
+                           </div>
+                        </div>
+                     </div> -->
+
+                  </div>
+               </div>
+               <div class="swiper-button-next swiper-navBtn"></div>
+               <div class="swiper-button-prev swiper-navBtn"></div>
+               <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- <div class="swiper-button-next" style="height: 20px; width: 30px;"></div> -->
+
+            <!-- <div class="row justify-content-between d-none">
+            <div class="custom-card">
+               <div class="custom-card-head">
+                  <img style="height: 140px" src="/images/cli1.png" alt="">
+               </div>
+               <h5 style="margin-top: 10px;">Occidental Of Oman Inc.</h5>
+            </div>
+            <div class="custom-card">
+               <div class="custom-card-head">
+                  <img style="height: 140px" src="/images/cli2.png" alt="">
+               </div>
+               <h5 style="margin-top: 10px;">PDO</h5>
+            </div>
+            <div class="custom-card">
+               <div class="custom-card-head">
+                  <img style="height: 140px" src="/images/cli3.png" alt="">
+               </div>
+               <h5 style="margin-top: 10px;">OQ</h5>
+            </div>
+            <div class="custom-card">
+               <div class="custom-card-head">
+                  <img style="height: 130px" src="/images/cli4.png" alt="">
+               </div>
+               <h5 style="margin-top: 10px;">Daleel</h5>
+            </div>
+         </div> -->
+         </div>
+
+         <!-- <div class="row">
             <div class="col-lg-7 col-md-6 service-two-grids">
                <div class="img-cols-grid row ">
-                  <div class="col-lg-6 col-md-6 col-sm-6 service-grid-wthree text-center">
+                 <div class="col-lg-6 col-md-6 col-sm-6 service-grid-wthree text-center">
                      <div class="about-icon mb-md-4 mb-3">
                         <span class="fa fa-tint" aria-hidden="true"></span>
                      </div>
@@ -238,12 +372,12 @@
             </div>
             <div class="color-img-five col-lg-5 col-md-6">
             </div>
-         </div>
+         </div> -->
       </div>
    </section>
-   <!--//service -->
-   <!--information -->
-   <section class="info py-lg-4 py-md-3 py-sm-3 py-3 text-center">
+   <!--//products-->
+   <!--Banner -->
+   <section data-aos="zoom-in" data-aos-duration="1000" class="info py-lg-4 py-md-3 py-sm-3 py-3 text-center">
       <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
          <div class="info-matter">
             <h5>We provide wide range of mechanical, instruments, electrical and safety products used in oil and gas
@@ -336,109 +470,126 @@
       </div>
    </section> -->
    <!--//blog-->
-   <!-- team -->
-   <section class="team py-lg-4 pb-lg-0 py-md-3 py-sm-3 py-3 pb-0" id="team">
+   <!-- Manufacturers -->
+   <section data-aos="zoom-out-up" class="team py-lg-4 pb-lg-0 py-md-3 py-sm-3 py-3 pb-0" id="team">
       <div class="container py-lg-5 pb-1 py-md-4 py-sm-4 py-1 ">
-         <h3 class="title text-center mb-md-4 mb-sm-3 mb-3 mb-2">Our Clients</h3>
+         <h3 class="title text-center mb-md-4 mb-sm-3 mb-3 mb-2">Our Manufacturers</h3>
          <div class="title-wls-text text-center mb-lg-1 mb-md-4 mb-sm-4 mb-3">
-            <p>We Provide Best Service To Our Clients </p>
+            <p>We Provide Best Service To Our Manufacturers </p>
          </div>
       </div>
       </div>
    </section>
    <section class="team py-lg-2 py-md-3  " id="team">
-      <div class="container py-lg-2 py-md-4 ">
-         <!-- <div class="swiper-button-prev" style="height: 20px; width: 30px;"></div> -->
-         <div class="swiper-container">
-            <div class="swiper-wrapper">
-               <div class="swiper-slide">
-                  <div class="custom-card">
-                     <div class="custom-card-head">
-                        <img style="height: 140px" src="/images/cli1.png" alt="">
+      <div class="container swiper">
+         <div class="slide-container">
+            <div class="card-wrapper swiper-wrapper">
+               <div class="card swiper-slide">
+                  <div class="image-box">
+                     <img src="images/om1.jpg" alt="" />
+                  </div>
+                  <div class="profile-details">
+                     <div class="name-job">
+                        <h1 class="name "></h1>
                      </div>
-                     <h5 style="margin-top: 10px;">Occidental Of Oman In</h5>
                   </div>
                </div>
-               <div class="swiper-slide">
-                  <div class="custom-card">
-                     <div class="custom-card-head">
-                        <img style="height: 140px" src="/images/cli2.png" alt="">
+               <div class="card swiper-slide">
+                  <div class="image-box">
+                     <img src="images/om2.jpg" alt="" />
+                  </div>
+                  <div class="profile-details">
+                     <div class="name-job">
+                        <h1 class="name "></h1>
                      </div>
-                     <h5 style="margin-top: 10px;">PDO</h5>
                   </div>
                </div>
-               <div class="swiper-slide">
-                  <div class="custom-card">
-                     <div class="custom-card-head">
-                        <img style="height: 140px" src="/images/cli3.png" alt="">
+               <div class="card swiper-slide">
+                  <div class="image-box">
+                     <img src="images/om3.jpg" alt="" />
+                  </div>
+                  <div class="profile-details">
+                     <div class="name-job">
+                        <h1 class="name "></h1>
                      </div>
-                     <h5 style="margin-top: 10px;">OQ</h5>
                   </div>
                </div>
-               <div class="swiper-slide">
-                  <div class="custom-card">
-                     <div class="custom-card-head">
-                        <img style="height: 140px" src="/images/cli4.png" alt="">
+               <div class="card swiper-slide">
+                  <div class="image-box">
+                     <img src="images/om5.jpg" alt="" />
+                  </div>
+                  <div class="profile-details">
+                     <div class="name-job">
+                        <h1 class="name "></h1>
                      </div>
-                     <h5 style="margin-top: 10px;">Daleel</h5>
                   </div>
                </div>
-               <div class="swiper-slide">
-                  <div class="custom-card">
-                     <div class="custom-card-head">
-                        <img style="height: 140px" src="/images/cli5.png" alt="">
+               <div class="card swiper-slide">
+                  <div class="image-box">
+                     <img src="images/om4.jpg" alt="" />
+                  </div>
+                  <div class="profile-details">
+                     <div class="name-job">
+                        <h1 class="name "></h1>
                      </div>
-                     <h5 style="margin-top: 10px;">CCED</h5>
                   </div>
                </div>
-               <div class="swiper-slide">
-                  <div class="custom-card">
-                     <div class="custom-card-head">
-                        <img style="height: 140px" src="/images/cli6.png" alt="">
+               <div class="card swiper-slide">
+                  <div class="image-box">
+                     <img src="images/om6.jpg" alt="" />
+                  </div>
+                  <div class="profile-details">
+                     <div class="name-job">
+                        <h1 class="name "></h1>
                      </div>
-                     <h5 style="margin-top: 10px;">Oman Methanol</h5>
                   </div>
                </div>
-               <div class="swiper-slide">
-                  <div class="custom-card">
-                     <div class="custom-card-head">
-                        <img style="height: 140px" src="/images/cli7.png" alt="">
+               <div class="card swiper-slide">
+                  <div class="image-box">
+                     <img src="images/om10.jpg" alt="" />
+                  </div>
+                  <div class="profile-details">
+                     <div class="name-job">
+                        <h1 class="name "></h1>
                      </div>
-                     <h5 style="margin-top: 10px;">OMAN LNG
+                  </div>
+               </div>
+               <div class="card swiper-slide">
+                  <div class="image-box">
+                     <img src="images/om9.jpg" alt="" />
+                  </div>
+                  <div class="profile-details">
+                     <div class="name-job">
+                        <h1 class="name "></h1>
+                     </div>
+                  </div>
+               </div>
+               <div class="card swiper-slide">
+                  <div class="image-box">
+                     <img src="images/om8.jpg" alt="" />
+                  </div>
+                  <div class="profile-details">
+                     <div class="name-job">
+                        <h1 class="name "></h1>
+                     </div>
+                  </div>
+               </div>
+               <div class="card swiper-slide">
+                  <div class="image-box">
+                     <img src="images/om7.jpg" alt="" />
+                  </div>
+                  <div class="profile-details">
+                     <div class="name-job">
+                        <h1 class="name "></h1>
+                     </div>
+                  </div>
+               </div>
 
-                     </h5>
-                  </div>
-               </div>
             </div>
          </div>
-         <!-- <div class="swiper-button-next" style="height: 20px; width: 30px;"></div> -->
-
-         <div class="row justify-content-between d-none">
-            <div class="custom-card">
-               <div class="custom-card-head">
-                  <img style="height: 140px" src="/images/cli1.png" alt="">
-               </div>
-               <h5 style="margin-top: 10px;">Occidental Of Oman Inc.</h5>
-            </div>
-            <div class="custom-card">
-               <div class="custom-card-head">
-                  <img style="height: 140px" src="/images/cli2.png" alt="">
-               </div>
-               <h5 style="margin-top: 10px;">PDO</h5>
-            </div>
-            <div class="custom-card">
-               <div class="custom-card-head">
-                  <img style="height: 140px" src="/images/cli3.png" alt="">
-               </div>
-               <h5 style="margin-top: 10px;">OQ</h5>
-            </div>
-            <div class="custom-card">
-               <div class="custom-card-head">
-                  <img style="height: 130px" src="/images/cli4.png" alt="">
-               </div>
-               <h5 style="margin-top: 10px;">Daleel</h5>
-            </div>
-         </div>
+         <div class="swiper-button-next swiper-navBtn"></div>
+         <div class="swiper-button-prev swiper-navBtn"></div>
+         <div class="swiper-pagination"></div>
       </div>
    </section>
    <section class="team d-none " id="team">
@@ -467,7 +618,6 @@
       </div>
    </section>
 
-   <!--//team -->
    <!-- footer -->
    <footer class=" my_footer py-lg-4 py-md-3 py-sm-3 py-3">
       <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
@@ -555,33 +705,18 @@
    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
       crossorigin="anonymous"></script>
    <script>
-      $(document).ready(function () {
-         // Swiper: Slider
-         new Swiper('.swiper-container', {
-            loop: true,
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            slidesPerView: 4,
-            paginationClickable: true,
-            spaceBetween: 20,
-            breakpoints: {
-               1920: {
-                  slidesPerView: 4,
-                  spaceBetween: 30
-               },
-               1028: {
-                  slidesPerView: 1,
-                  spaceBetween: 30
-               },
-               480: {
-                  slidesPerView: 1,
-                  spaceBetween: 10
-               }
-            }
-         });
-      });
+   
+
+
+
 
    </script>
+   <script src="swiper-bundle.min.js"></script>
+   <script src="script.js"></script>
+   <script>
+      AOS.init();
+   </script>
 </body>
+
 
 </html>
