@@ -191,7 +191,7 @@ service.html 156
                 <span class="fa fa-tint" aria-hidden="true"></span>
              </div> -->
              <div class="about-grid-title">
-                <h4 class="mb-lg-3 mb-2">lEVEL STATE </h4>
+                <h4 class="mb-lg-3 mb-2">LEVEL-STATE </h4>
                 <p>sed do eiusmod tempor incididunt</p>
              </div>
           </div>
@@ -296,9 +296,9 @@ service.html 156
                  <input type="checkbox" id="droptwo-2">
                  <ul>
                     <li><a href="metrix.html" class="drop-text">METRIX</a></li>
-                    <li><a href="marathon.html" class="drop-text">Marathon</a></li>
+                    <li><a href="MARATHON.html" class="drop-text">MARATHON</a></li>
                     <li><a href="tempsens.html" class="drop-text">Tempsens</a></li>
-                    <li><a href="level_state.html" class="drop-text">Level State</a></li>
+                    <li><a href="level_state.html" class="drop-text">LEVEL-STATE</a></li>
                     <li><a href="#" class="drop-text">Other Products</a></li>
                  </ul>
               </li>
