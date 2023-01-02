@@ -231,6 +231,10 @@ ul li {
   background-color: #000;
 }
 
+.social_media_footer{
+  margin-left: 0%;
+}
+
 @media screen and (max-width: 768px) {
   .swiper-navBtn {
     display: none;
