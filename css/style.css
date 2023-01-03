@@ -201,6 +201,7 @@ ul li {
 }
 .card .profile-details {
   display: flex;
+  justify-content: center;
   align-items: center;
   column-gap: 12px;
 }
@@ -210,8 +211,11 @@ ul li {
   border-radius: 50%;
 }
 .profile-details .name {
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .profile-details .job {
   font-size: 12px;
@@ -2250,6 +2254,12 @@ font-size: large;
   width: 80%;
   padding-bottom: 25px;
 }
+.swiper-wrapper-product {
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .swiper-slide {
   max-width: 300px;
   width: 300px !important;
@@ -2368,6 +2378,7 @@ font-size: large;
   .level_state_img_con {
     margin: 5px;
   }
+ 
 }
 
 @media only screen and (max-width: 651px) {
@@ -2406,6 +2417,9 @@ font-size: large;
   .swiper-slide {
     max-width: 300px;
     width: 300px !important;
+  }
+  .swiper-slide-product {
+    width: 206px !important;
   }
 
   .custom-card {
