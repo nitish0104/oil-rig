@@ -131,7 +131,7 @@ ul li {
 .table-sub-title h4,
 .contact-list-grid h4 {
   font-size: 22px;
-  color: #fff;
+  color: rgb(18, 18, 18);
   text-transform: capitalize;
   font-weight: 400;
 }
