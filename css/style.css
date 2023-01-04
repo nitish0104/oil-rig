@@ -231,6 +231,13 @@ ul li {
   color: #4d4d4d;
 }
 
+.expand_btn{
+  display: none;
+}
+#servicesm{
+  display: none !important;
+}
+
 .swiper-navBtn {
   color: #000;
   height: 40px;
@@ -2626,18 +2633,23 @@ height: 100%;
     display: block;
   }
 
-  #servicelg {
-    display: none;
-  }
+ 
 
   .container_products_sm {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
+  .swiper-wrapper-product {
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
   .swiper-wrapper-product_sm {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
 .menu li .drop-text{
   text-align: center;
@@ -2651,10 +2663,12 @@ height: 100%;
     background: linear-gradient(to bottom, transparent, rgb(255, 255, 255));
   }
 
-  .expand_btn {
+   .expand_btn{
+    display: block;
     appearance: none;
-    border: 1px solid black;
-    padding: 0.5rem;
+    background-color: #aeaeae;
+    border: 2px solid rgb(72, 72, 72);
+    padding: 1rem;
     border-radius: .25em;
     cursor: pointer;
     margin-top: 1rem;
@@ -2665,16 +2679,19 @@ height: 100%;
   }
 
   .expand_btn:hover {
-    background-color: #c7c7c7;
+    background-color: #a5a0a0;
 
   }
 
   .expand_btn::before {
     content: "Read more";
+    padding: 10px;
   }
 
   .expand_btn:checked::before {
     content: "Read less";
+    padding: 10px;
+
   }
 
   .cutoff-text:has(+ .expand_btn:checked) {

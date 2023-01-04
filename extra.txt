@@ -613,3 +613,11 @@ FOOTER WITH NewsLetter
                </div>
             </div>
          </div>
+ 
+ below card heading
+ 
+           <div class="profile-details">
+                           <div class="name-job">
+                              <h1 class="name ">MARATHON</h1>
+                           </div>
+                        </div>
