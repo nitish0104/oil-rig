@@ -30,6 +30,9 @@ body a {
 
 body a:hover {
   text-decoration: none;
+  cursor: pointer;
+  
+  scroll-behavior: smooth;
 }
 
 body a:focus,
@@ -430,6 +433,10 @@ nav ul ul ul li {
   top: -60px;
   /* has to be the same number as the "width" of "nav ul ul li" */
   left: 170px;
+}
+
+.products_arrow{
+  margin-top: 50px;
 }
 
 /* mywork */
@@ -1157,6 +1164,71 @@ a.move-top {
   height: 40px;
   background: url(../images/arrow.png) no-repeat 0px 0px;
   display: inline-block;
+}
+
+
+a.move-down {
+  width: 40px;
+  height: 40px;
+  background: url(../images/arrow-down-circle-fill.svg) no-repeat 0px 0px;
+  display: inline-block;
+  z-index: 10;
+  position: relative;
+
+}
+
+/* arrow bounce */
+.arrow-circle-down {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 16px 0;
+	/*fill: #fff;*/
+}
+
+.bounce {
+	-webkit-animation: bounce 2s;
+	        animation: bounce 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
+}
+
+@keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
 }
 
 footer p a:hover {
@@ -2083,17 +2155,18 @@ footer p a:hover {
 
 /*--//responsive--*/
 .custombar {
-  height: 250px;
+  height: 100vh;
   background: url(https://media.istockphoto.com/id/636032898/photo/offshore-jack-up-rig-in-the-middle-of-the-sea.jpg?s=612x612&w=0&k=20&c=MWNJbJydU14mPgGIrL9bZbHv1Jq8cmKmJGWhpnzzk7U=);
   width: 100vw;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   margin-bottom: 50px;
   /* z-index: 100; */
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
@@ -2106,7 +2179,7 @@ footer p a:hover {
 
 .custombar::before {
   content: "";
-  height: 250px;
+  height: 100vh;
   width: 100vw;
   position: absolute;
   top: 0;
