@@ -214,6 +214,8 @@ ul li {
   column-gap: 12px;
 }
 
+
+
 .card .profile-details img {
   height: 40px;
   width: 40px;
@@ -260,6 +262,14 @@ ul li {
 
 .social_media_footer {
   margin-left: 0%;
+}
+
+.contact_style{
+  display: flex;
+}
+
+.contact_head{
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -326,7 +336,7 @@ nav ul {
 nav ul li {
   margin: 0px;
   display: inline-block;
-  float: left;
+  float: left ;
 }
 
 /* Styling the links */
@@ -2167,7 +2177,7 @@ footer p a:hover {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: #fff;
 }
