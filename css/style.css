@@ -368,9 +368,21 @@ nav ul li ul li:hover {
 .row_certificate {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin-right: -15px;
   margin-left: -15px;
+  background-color: rgb(255 246 246) !important;
+}
+.certificaet_mobile {
+  margin-top: 40px;
+  background-color: rgb(248, 243, 243) !important;
+}
+.cetificate_head {
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(255 246 246) !important;
 }
 /* Background color change on Hover */
 
@@ -667,7 +679,9 @@ background-color: #212121;
   -ms-background-size: cover;
   min-height: 800px;
 }
-
+.image_certificate {
+  box-shadow: 10px 10px 5px rgb(110, 113, 114);
+}
 .headder-top {
   /* background: rgba(255, 255, 255, 0.6); */
   position: absolute;
@@ -2465,7 +2479,7 @@ footer p a:hover {
   }
 
   .swiper-slide {
-    max-width: 300px;
+    max-width: 300px1
     width: 300px !important;
   }
 
@@ -2473,11 +2487,35 @@ footer p a:hover {
     width: 300px;
     max-width: max-content;
   }
+  .row_certificate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: rgb(248, 243, 243) !important;
+  }
+  .parentdiv_certificate {
+    /* background-color: rgb(255 246 246) !important; */
+    padding: 10px;
+  }
+  .certificaet_mobile {
+    margin-top: 40px;
+    background-color: rgb(248, 243, 243) !important;
 
-  /* .myproduct_img img {
-    width: auto;
-  } */
+  }
+  .cetificate_head {
+    text-align: center;
+    padding: 30px;
 
+    /* background-color: rgb(255 246 246) !important; */
+  }
+ 
+  .image_certificate {
+    height: 430px !important;
+    min-width: -webkit-fill-available;
+  }
   .myproduct_img {
     justify-content: center;
     align-items: center;
