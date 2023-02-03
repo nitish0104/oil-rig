@@ -31,7 +31,7 @@ body a {
 body a:hover {
   text-decoration: none;
   cursor: pointer;
-  
+
   scroll-behavior: smooth;
 }
 
@@ -199,7 +199,6 @@ ul li {
 }
 
 .card .image-box img {
-
   width: 90%;
   height: 90%;
   border-radius: 8px 8px 0 0;
@@ -213,8 +212,6 @@ ul li {
   align-items: center;
   column-gap: 12px;
 }
-
-
 
 .card .profile-details img {
   height: 40px;
@@ -236,10 +233,10 @@ ul li {
   color: #4d4d4d;
 }
 
-.expand_btn{
+.expand_btn {
   display: none;
 }
-#servicesm{
+#servicesm {
   display: none !important;
 }
 
@@ -264,11 +261,11 @@ ul li {
   margin-left: 0%;
 }
 
-.contact_style{
+.contact_style {
   display: flex;
 }
 
-.contact_head{
+.contact_head {
   margin-left: 10px;
 }
 
@@ -277,7 +274,6 @@ ul li {
     display: none;
   }
 }
-
 
 /* CSS Document */
 
@@ -336,7 +332,7 @@ nav ul {
 nav ul li {
   margin: 0px;
   display: inline-block;
-  float: left ;
+  float: left;
 }
 
 /* Styling the links */
@@ -369,7 +365,13 @@ nav ul li ul li:hover {
 .drop-text {
   text-align: left;
 }
-
+.row_certificate {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 /* Background color change on Hover */
 
 /*.menu li.active a,.menu li a:hover{border-bottom: 1px solid #d4d4d4;}*/
@@ -399,7 +401,7 @@ nav ul ul {
 
 /* Display Dropdowns on Hover */
 
-nav ul li:hover>ul {
+nav ul li:hover > ul {
   display: inherit;
 }
 
@@ -445,7 +447,7 @@ nav ul ul ul li {
   left: 170px;
 }
 
-.products_arrow{
+.products_arrow {
   margin-top: 50px;
 }
 
@@ -459,7 +461,7 @@ nav ul ul ul li {
 
 /* Change ' +' in order to change the Dropdown symbol */
 
-li>a:only-child:after {
+li > a:only-child:after {
   content: "";
 }
 
@@ -492,7 +494,7 @@ a.reqe-button {
 
   /* Hide the navigation menu by default */
   /* Also hide the  */
-  .toggle+a,
+  .toggle + a,
   .menu {
     display: none;
   }
@@ -553,7 +555,7 @@ a.reqe-button {
   }
 
   /* Display Dropdown when clicked on Parent Lable */
-  [id^="drop"]:checked+ul {
+  [id^="drop"]:checked + ul {
     display: block;
     background: #656565;
     padding: 15px 0;
@@ -604,8 +606,8 @@ background-color: #212121;
   }
 
   /* Hide menus on hover */
-  nav ul ul li:hover>ul,
-  nav ul li:hover>ul {
+  nav ul ul li:hover > ul,
+  nav ul li:hover > ul {
     display: none;
   }
 
@@ -633,7 +635,6 @@ background-color: #212121;
 }
 
 @media all and (max-width: 568px) {
-
   nav a,
   .menu .toggle,
   nav ul li ul li .toggle,
@@ -644,7 +645,6 @@ background-color: #212121;
 }
 
 @media all and (max-width: 320px) {
-
   nav a,
   .menu .toggle,
   nav ul li ul li .toggle,
@@ -742,7 +742,6 @@ button.btn1:hover,
 /*--// about-- */
 
 /*-- servive-- */
-
 
 .service,
 .team {
@@ -1176,7 +1175,6 @@ a.move-top {
   display: inline-block;
 }
 
-
 a.move-down {
   width: 40px;
   height: 40px;
@@ -1184,61 +1182,60 @@ a.move-down {
   display: inline-block;
   z-index: 10;
   position: relative;
-
 }
 
 /* arrow bounce */
 .arrow-circle-down {
-	display: block;
-	width: 40px;
-	height: 40px;
-	margin: 16px 0;
-	/*fill: #fff;*/
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 16px 0;
+  /*fill: #fff;*/
 }
 
 .bounce {
-	-webkit-animation: bounce 2s;
-	        animation: bounce 2s;
-	-webkit-animation-iteration-count: infinite;
-	        animation-iteration-count: infinite;
+  -webkit-animation: bounce 2s;
+  animation: bounce 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes bounce {
-	0%,
-	25%,
-	50%,
-	75%,
-	100% {
-		-webkit-transform: translateY(0);
-		        transform: translateY(0);
-	}
-	40% {
-		-webkit-transform: translateY(-20px);
-		        transform: translateY(-20px);
-	}
-	60% {
-		-webkit-transform: translateY(-12px);
-		        transform: translateY(-12px);
-	}
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+  }
 }
 
 @keyframes bounce {
-	0%,
-	25%,
-	50%,
-	75%,
-	100% {
-		-webkit-transform: translateY(0);
-		        transform: translateY(0);
-	}
-	40% {
-		-webkit-transform: translateY(-20px);
-		        transform: translateY(-20px);
-	}
-	60% {
-		-webkit-transform: translateY(-12px);
-		        transform: translateY(-12px);
-	}
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+  }
 }
 
 footer p a:hover {
@@ -1249,11 +1246,14 @@ footer p a:hover {
 
 /*--responsive--*/
 
-@media (max-width: 1920px) {}
+@media (max-width: 1920px) {
+}
 
-@media (max-width: 1680px) {}
+@media (max-width: 1680px) {
+}
 
-@media (max-width: 1600px) {}
+@media (max-width: 1600px) {
+}
 
 @media (max-width: 1440px) {
   .main-top {
@@ -1881,7 +1881,6 @@ footer p a:hover {
 }
 
 @media (max-width: 568px) {
-
   .about-abt-grid,
   .team-row-grid {
     width: 50%;
@@ -2500,7 +2499,6 @@ footer p a:hover {
   .level_state_img_con {
     margin: 5px;
   }
-
 }
 
 @media only screen and (max-width: 651px) {
@@ -2633,12 +2631,9 @@ footer p a:hover {
     margin-bottom: 8px;
     font-weight: bolder;
   } */
-
-
 }
 
 @media (min-width: 1050px) {
-
   .product-parent:nth-child(even) {
     flex-direction: row-reverse;
     background-color: rgba(0, 0, 0, 0.048);
@@ -2648,7 +2643,6 @@ footer p a:hover {
     /* flex-direction: row-reverse; */
     background-color: rgba(0, 0, 0, 0.079);
   }
-
 }
 
 /* 
@@ -2695,8 +2689,6 @@ height: 100%;
   align-items: center;
 } */
 
-
-
 /* new changes */
 
 @media only screen and (max-width: 600px) {
@@ -2710,8 +2702,6 @@ height: 100%;
     overflow: hidden;
     position: relative;
     /* background: linear-gradient(to bottom, transparent, rgb(255, 255, 255)); */
-
-
   }
 
   #servicesm {
@@ -2728,26 +2718,25 @@ height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+  }
 
   .swiper-wrapper-product_sm {
     display: flex !important;
     flex-direction: column !important;
   }
-.menu li .drop-text{
-  text-align: center;
-}
+  .menu li .drop-text {
+    text-align: center;
+  }
   .cutoff-text::before {
     position: absolute;
-    height: calc(1rem* var(--line-height));
+    height: calc(1rem * var(--line-height));
     width: 100%;
     bottom: 0;
     pointer-events: none;
     background: linear-gradient(to bottom, transparent, rgb(194, 191, 191));
-    
   }
 
-   .expand_btn{
+  .expand_btn {
     display: block;
     appearance: none;
     background-color: #d9d8d8;
@@ -2763,14 +2752,13 @@ height: 100%;
     padding: 8px 18px;
     border: 1px solid rgba(208, 208, 208, 0);
   }
-  .swiper-slide-product{
-    width: 300px !important; 
+  .swiper-slide-product {
+    width: 300px !important;
     margin-bottom: 8px;
   }
 
   .expand_btn:hover {
     background-color: #a5a0a0;
-
   }
 
   .expand_btn::before {
@@ -2781,12 +2769,9 @@ height: 100%;
   .expand_btn:checked::before {
     content: "Read less";
     padding: 10px;
-
   }
 
   .cutoff-text:has(+ .expand_btn:checked) {
     max-height: none;
   }
-
-
 }
