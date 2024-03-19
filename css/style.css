@@ -309,7 +309,7 @@ nav {
   font-weight: 400;
   font-size: 25px;
   letter-spacing: 1px;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 221, 0);
   padding: 0;
   margin-top: 10px;
 }
@@ -1135,7 +1135,7 @@ footer {
 .footer-head h2 a {
   font-size: 29px;
   font-weight: 600;
-  color: #fff;
+  color: rgb(255, 221, 0);
 }
 
 /* #fff; */
@@ -1160,7 +1160,7 @@ footer {
   font-size: 14px;
   width: 80%;
   border-radius: 0px;
-  background: rgb(255, 255, 255);
+  background: rgb(255, 221, 0);
   border: 1px solid #fff;
 }
 
@@ -2746,7 +2746,7 @@ height: 100%;
 
     overflow: hidden;
     position: relative;
-    /* background: linear-gradient(to bottom, transparent, rgb(255, 255, 255)); */
+    /* background: linear-gradient(to bottom, transparent, rgb(255, 221, 0)); */
   }
 
   #servicesm {
